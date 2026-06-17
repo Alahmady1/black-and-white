@@ -25,8 +25,8 @@ def create_app():
     with app.app_context():
         db.create_all()
         # Seed if empty
-        from flask_backend.seed import seed_database
-        seed_database()
+     #   from flask_backend.seed import seed_database
+       # seed_database()
         
     return app
 app = create_app()
