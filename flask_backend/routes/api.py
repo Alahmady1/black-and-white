@@ -48,6 +48,8 @@ def create_order():
     db.session.flush() # get id
     
     for item in items:
+        if item.get("id") == "gift-lemon-mint":
+          continue
         # We assume frontend sends the product id, name, price, quantity
         order_item = OrderItem(
             order_id=order.id,
