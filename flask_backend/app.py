@@ -21,24 +21,24 @@ def create_app():
     app.register_blueprint(admin_bp, url_prefix='/admin')
     app.register_blueprint(auth_bp, url_prefix='/auth')
     
-    # Create tables
+   # Create tables
     with app.app_context():
-     db.create_all()
+        db.create_all()
 
-    from flask_backend.models import Admin, Product
-    from flask_backend.seed import seed_database
+        from flask_backend.models import Admin, Product
+        from flask_backend.seed import seed_database
 
-    if Product.query.count() == 0:
-        seed_database()
+        if Product.query.count() == 0:
+            seed_database()
 
-    admin = Admin.query.filter_by(username="Ak47").first()
-    if not admin:
-        admin = Admin(
-            username="Ak47",
-            password_hash=bcrypt.generate_password_hash("black&white2027").decode("utf-8")
-        )
-        db.session.add(admin)
-        db.session.commit()
+        admin = Admin.query.filter_by(username="Ak47").first()
+        if not admin:
+            admin = Admin(
+                username="Ak47",
+                password_hash=bcrypt.generate_password_hash("black&white2027").decode("utf-8")
+            )
+            db.session.add(admin)
+            db.session.commit()
 
     return app
 app = create_app()
