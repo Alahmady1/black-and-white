@@ -118,17 +118,17 @@
     });
 
     const total = getCartTotal(cart);
-
+    const notes = document.getElementById("orderNotes")?.value || "";
     const messageText =
       `طلب جديد من Black & White\n\n` +
       lines.join("\n") +
       `\n\nالإجمالي: ${total} ج.م` +
-      `\nالدفع: كاش`;
+      `\nالدفع: كاش` +notes;
 
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       messageText,
     )}`;
-    window.open(url, "_blank");
+ 
     fetch("https://web-production-c87a6.up.railway.app/api/orders", {
       method: "POST",
       headers: {
@@ -146,10 +146,16 @@
         })),
         total_price: total,
         source: "whatsapp",
-        notes: document.getElementById("orderNotes")?.value || "",
+        notes: notes,
       }),
-    }).catch((err) => console.error("Order save failed:", err));
-  }
+    })
+.then(() => {
+  window.open(url, "_blank");
+})
+.catch((err) => {
+  console.error("Order save failed:", err);
+  window.open(url, "_blank");
+});
 
   function createCartUI() {
     const oldButton = document.getElementById("cartButton");
