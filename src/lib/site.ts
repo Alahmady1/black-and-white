@@ -1,0 +1,2 @@
+export const SITE_PHONE = "01094652499";
+export const SITE_WHATSAPP = "201094652499";

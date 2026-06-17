@@ -1,0 +1,1896 @@
+{
+  "categories": [
+    "الكل",
+    "عصائر فريش",
+    "وافل",
+    "حلويات",
+    "صودا",
+    "كوكتيل",
+    "سموزي",
+    "صنداي",
+    "قهوة مثلجة",
+    "بوبا تي",
+    "ميلك شيك",
+    "زبادي",
+    "إسبريسو",
+    "فرابيه وفرابتشينو",
+    "مشروبات ساخنة",
+    "ركن القهوة",
+    "شوربة",
+    "سلطات",
+    "سندوتشات",
+    "بطاطس",
+    "أطباق رئيسية",
+    "باستا",
+    "بيتزا",
+    "كالزون",
+    "إضافات",
+    "إضافات مشروبات"
+  ],
+  "items": [
+    {
+      "id": "item1",
+      "name": "مانجو",
+      "category": "عصائر فريش",
+      "price": 60,
+      "image": "/flavors/j_mango.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item2",
+      "name": "موز",
+      "category": "عصائر فريش",
+      "price": 60,
+      "image": "/flavors/j_bannana.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item3",
+      "name": "فراولة",
+      "category": "عصائر فريش",
+      "price": 55,
+      "image": "/flavors/j_strawberry.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item4",
+      "name": "جوافة",
+      "category": "عصائر فريش",
+      "price": 55,
+      "image": "/flavors/j_guava.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item5",
+      "name": "بطيخ",
+      "category": "عصائر فريش",
+      "price": 55,
+      "image": "/flavors/j_water_melon.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item6",
+      "name": "برتقال",
+      "category": "عصائر فريش",
+      "price": 65,
+      "image": "/flavors/j_orange.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item7",
+      "name": "ليمون",
+      "category": "عصائر فريش",
+      "price": 40,
+      "image": "/flavors/j_lemon.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item8",
+      "name": "ليمون نعناع",
+      "category": "عصائر فريش",
+      "price": 50,
+      "image": "/flavors/j_lemon_mint.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item9",
+      "name": "أفوكادو",
+      "category": "عصائر فريش",
+      "price": 170,
+      "image": "/flavors/j_avocado.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item10",
+      "name": "مولتن كيك",
+      "category": "حلويات",
+      "price": 90,
+      "image": "/flavors/molten_caake.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item11",
+      "name": "شوكليت كيك",
+      "category": "حلويات",
+      "price": 80,
+      "image": "/flavors/chocaletecake.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item12",
+      "name": "سبانيش كلاسيك",
+      "category": "حلويات",
+      "price": 75,
+      "image": "/flavors/cheese_cake.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item13",
+      "name": "سينابون",
+      "category": "حلويات",
+      "price": 80,
+      "image": "/flavors/cinabon.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item14",
+      "name": "ريد فلفيت",
+      "category": "حلويات",
+      "price": 80,
+      "image": "/flavors/red_velvet.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item15",
+      "name": "سان سباستيان",
+      "category": "حلويات",
+      "price": 120,
+      "image": "/flavors/san_spastian.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item16",
+      "name": "ميني بان كيك",
+      "category": "حلويات",
+      "price": 65,
+      "image": "/flavors/mini bancake.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item17",
+      "name": "ميني بان كيك B&W",
+      "category": "حلويات",
+      "price": 75,
+      "image": "/flavors/cheese_cake.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item18",
+      "name": "موخيتو كلاسيك",
+      "category": "صودا",
+      "price": 65,
+      "image": "/flavors/soda-mojito-flavor.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item19",
+      "name": "موخيتو فلافير",
+      "category": "صودا",
+      "price": 70,
+      "image": "/flavors/soda-mojito-flavor.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item20",
+      "name": "بلو كوراساو أو بلو هاواي",
+      "category": "صودا",
+      "price": 70,
+      "image": "/flavors/soda-mojito-flavor.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item21",
+      "name": "طن رابر أو صن شاين",
+      "category": "صودا",
+      "price": 70,
+      "image": "/flavors/soda-sunshine.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item22",
+      "name": "شيري كولا",
+      "category": "صودا",
+      "price": 70,
+      "image": "/flavors/soda-mojito-flavor.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item23",
+      "name": "بلاك أورنج",
+      "category": "صودا",
+      "price": 75,
+      "image": "/flavors/soda-mojito-flavor.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item24",
+      "name": "موخيتو باشون بيري",
+      "category": "صودا",
+      "price": 75,
+      "image": "/flavors/soda-passion-berry.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item25",
+      "name": "موخيتو ريدبول",
+      "category": "صودا",
+      "price": 110,
+      "image": "/flavors/soda-redbull-mojito.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item26",
+      "name": "ريدبول اسبريسو",
+      "category": "صودا",
+      "price": 110,
+      "image": "/flavors/soda-redbull-espresso.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item27",
+      "name": "فلوريدا",
+      "category": "كوكتيل",
+      "price": 70,
+      "image": "/flavors/c_fresh_cocktail.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item28",
+      "name": "بينك روز",
+      "category": "كوكتيل",
+      "price": 75,
+      "image": "/flavors/c_fresh_cocktail.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item29",
+      "name": "كياجنو",
+      "category": "كوكتيل",
+      "price": 70,
+      "image": "/flavors/c_kiango.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item30",
+      "name": "ريلاكس",
+      "category": "كوكتيل",
+      "price": 70,
+      "image": "/flavors/c_fresh_cocktail.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item31",
+      "name": "فريش كوكتيل",
+      "category": "كوكتيل",
+      "price": 70,
+      "image": "/flavors/c_fresh_cocktail.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item32",
+      "name": "فروت سالاد",
+      "category": "كوكتيل",
+      "price": 80,
+      "image": "/flavors/c_fruit_salade.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item33",
+      "name": "ميكس آيس كريم",
+      "category": "صنداي",
+      "price": 50,
+      "image": "/flavors/mix_ice_cream.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item34",
+      "name": "صن داي كيت كات",
+      "category": "صنداي",
+      "price": 70,
+      "image": "/flavors/sunday_kitkat.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item35",
+      "name": "صن داي سنيكرز",
+      "category": "صنداي",
+      "price": 70,
+      "image": "/flavors/sunday_sneakers.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item36",
+      "name": "صن داي بيستاشيو",
+      "category": "صنداي",
+      "price": 70,
+      "image": "/flavors/sunday_pistachio.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item37",
+      "name": "آيس لاتيه",
+      "category": "قهوة مثلجة",
+      "price": 60,
+      "image": "/flavors/ice_latte.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item38",
+      "name": "آيس لاتيه فليفر",
+      "category": "قهوة مثلجة",
+      "price": 75,
+      "image": "/flavors/ice_latte.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item39",
+      "name": "آيس كابتشينو",
+      "category": "قهوة مثلجة",
+      "price": 70,
+      "image": "/flavors/ice_capuccino.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item40",
+      "name": "آيس موكا",
+      "category": "قهوة مثلجة",
+      "price": 70,
+      "image": "/flavors/ice_mocha.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item41",
+      "name": "آيس إسبانيش لاتيه",
+      "category": "قهوة مثلجة",
+      "price": 95,
+      "image": "/flavors/ice_spanish_latte.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item42",
+      "name": "ماتشا لاتيه",
+      "category": "قهوة مثلجة",
+      "price": 100,
+      "image": "/flavors/ice_matchs_latte.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item43",
+      "name": "زبادي عسل",
+      "category": "زبادي",
+      "price": 65,
+      "image": "/flavors/j_mango.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item44",
+      "name": "زبادي كوكتيل",
+      "category": "زبادي",
+      "price": 75,
+      "image": "/flavors/j_mango.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item45",
+      "name": "زبادي بلوبيري",
+      "category": "زبادي",
+      "price": 80,
+      "image": "/flavors/j_mango.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item46",
+      "name": "إسبريسو سنجل",
+      "category": "إسبريسو",
+      "price": 35,
+      "image": "/flavors/Esperreso_single.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item47",
+      "name": "إسبريسو دبل",
+      "category": "إسبريسو",
+      "price": 45,
+      "image": "/flavors/Esperreso_double.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item48",
+      "name": "ميكاتو سنجل",
+      "category": "إسبريسو",
+      "price": 40,
+      "image": "/flavors/Latte.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item49",
+      "name": "ميكاتو دبل",
+      "category": "إسبريسو",
+      "price": 50,
+      "image": "/flavors/Latte.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item50",
+      "name": "لاتيه",
+      "category": "إسبريسو",
+      "price": 60,
+      "image": "/flavors/Latte.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item51",
+      "name": "لاتيه فليفر",
+      "category": "إسبريسو",
+      "price": 75,
+      "image": "/flavors/Latte_flavor.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item52",
+      "name": "كورتادو",
+      "category": "إسبريسو",
+      "price": 70,
+      "image": "/flavors/Latte.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item53",
+      "name": "كابتشينو",
+      "category": "إسبريسو",
+      "price": 70,
+      "image": "/flavors/capuccino.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item54",
+      "name": "فلات وايت",
+      "category": "إسبريسو",
+      "price": 70,
+      "image": "/flavors/Flat_white.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item55",
+      "name": "موكا",
+      "category": "إسبريسو",
+      "price": 70,
+      "image": "/flavors/Mocha.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item56",
+      "name": "أفوكادو",
+      "category": "إسبريسو",
+      "price": 60,
+      "image": "/flavors/j_avocado.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item57",
+      "name": "ميكرو كوفي",
+      "category": "إسبريسو",
+      "price": 50,
+      "image": "/flavors/Latte.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item58",
+      "name": "هامر هيد",
+      "category": "إسبريسو",
+      "price": 60,
+      "image": "/flavors/Latte.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item59",
+      "name": "فرابيه كلاسيك",
+      "category": "فرابيه وفرابتشينو",
+      "price": 70,
+      "image": "/flavors/classic_frappe.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item60",
+      "name": "فرابيه وايت شوكليت",
+      "category": "فرابيه وفرابتشينو",
+      "price": 75,
+      "image": "/flavors/classic_frappe.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item61",
+      "name": "فرابيه شوكليت",
+      "category": "فرابيه وفرابتشينو",
+      "price": 75,
+      "image": "/flavors/chocolate_frappe.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item62",
+      "name": "فرابيه كراميل",
+      "category": "فرابيه وفرابتشينو",
+      "price": 75,
+      "image": "/flavors/caramel_frappe.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item63",
+      "name": "فرابيه نوتيلا",
+      "category": "فرابيه وفرابتشينو",
+      "price": 75,
+      "image": "/flavors/frappe_nutella.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item64",
+      "name": "فرابيه أوريو",
+      "category": "فرابيه وفرابتشينو",
+      "price": 75,
+      "image": "/flavors/oreo_frappe.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item65",
+      "name": "فرابتشينو كلاسيك",
+      "category": "فرابيه وفرابتشينو",
+      "price": 80,
+      "image": "/flavors/frappuccino_classic.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item66",
+      "name": "فرابتشينو وايت شوكليت",
+      "category": "فرابيه وفرابتشينو",
+      "price": 85,
+      "image": "/flavors/frappuccino_white_chocolate.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item67",
+      "name": "فرابتشينو شوكليت",
+      "category": "فرابيه وفرابتشينو",
+      "price": 85,
+      "image": "/flavors/frappuccino_chocolate.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item68",
+      "name": "فرابتشينو كراميل",
+      "category": "فرابيه وفرابتشينو",
+      "price": 85,
+      "image": "/flavors/frabuccino_caramel.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item69",
+      "name": "فرابتشينو نوتيلا",
+      "category": "فرابيه وفرابتشينو",
+      "price": 85,
+      "image": "/flavors/frapuccino_nutella.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item70",
+      "name": "فرابتشينو أوريو",
+      "category": "فرابيه وفرابتشينو",
+      "price": 85,
+      "image": "/flavors/frapuccino_oreo.jpeg",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item71",
+      "name": "شاي أحمد تي",
+      "category": "مشروبات ساخنة",
+      "price": 15,
+      "image": "/flavors/ahmed_tea.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item72",
+      "name": "شاي أخضر",
+      "category": "مشروبات ساخنة",
+      "price": 20,
+      "image": "/flavors/green_tea.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item73",
+      "name": "شاي لاتيه",
+      "category": "مشروبات ساخنة",
+      "price": 30,
+      "image": "/flavors/tea_with_milk.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item74",
+      "name": "شاي كرك",
+      "category": "مشروبات ساخنة",
+      "price": 35,
+      "image": "/flavors/kark_tea.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item75",
+      "name": "أعشاب",
+      "category": "مشروبات ساخنة",
+      "price": 20,
+      "image": "/flavors/ashab.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item76",
+      "name": "ميكس أعشاب",
+      "category": "مشروبات ساخنة",
+      "price": 35,
+      "image": "/flavors/mix_ashab.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item77",
+      "name": "هوت سيدر",
+      "category": "مشروبات ساخنة",
+      "price": 45,
+      "image": "/flavors/hot_ciedr.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item78",
+      "name": "سحلب مكسرات",
+      "category": "مشروبات ساخنة",
+      "price": 55,
+      "image": "/flavors/ahmed_tea.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item79",
+      "name": "سحلب شوكليت",
+      "category": "مشروبات ساخنة",
+      "price": 60,
+      "image": "/flavors/ahmed_tea.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item80",
+      "name": "سحلب فواكه",
+      "category": "مشروبات ساخنة",
+      "price": 65,
+      "image": "/flavors/ahmed_tea.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item81",
+      "name": "حمص شام",
+      "category": "مشروبات ساخنة",
+      "price": 45,
+      "image": "/flavors/homos_alsham.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item82",
+      "name": "قهوة تركي",
+      "category": "ركن القهوة",
+      "price": 30,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item83",
+      "name": "قهوة تركي دبل",
+      "category": "ركن القهوة",
+      "price": 35,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item84",
+      "name": "قهوة تركي محوج",
+      "category": "ركن القهوة",
+      "price": 40,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item85",
+      "name": "قهوة فرنساوي",
+      "category": "ركن القهوة",
+      "price": 50,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item86",
+      "name": "قهوة بندق",
+      "category": "ركن القهوة",
+      "price": 55,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item87",
+      "name": "نسكافيه",
+      "category": "ركن القهوة",
+      "price": 55,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item88",
+      "name": "شوربة لسان عصفور",
+      "category": "شوربة",
+      "price": 50,
+      "image": "/flavors/homos_alsham.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item89",
+      "name": "شوربة كريمي",
+      "category": "شوربة",
+      "price": 70,
+      "image": "/flavors/homos_alsham.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item90",
+      "name": "شوربة كريمي دجاج",
+      "category": "شوربة",
+      "price": 100,
+      "image": "/flavors/homos_alsham.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item91",
+      "name": "شوربة مشروم",
+      "category": "شوربة",
+      "price": 80,
+      "image": "/flavors/homos_alsham.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item92",
+      "name": "شوربة مشروم دجاج",
+      "category": "شوربة",
+      "price": 110,
+      "image": "/flavors/homos_alsham.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item93",
+      "name": "شوربة سي فود",
+      "category": "شوربة",
+      "price": 180,
+      "image": "/flavors/homos_alsham.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item94",
+      "name": "ميكس جرين سالاد",
+      "category": "سلطات",
+      "price": 60,
+      "image": "/flavors/c_fresh_cocktail.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item95",
+      "name": "سلطة فيتا يوناني",
+      "category": "سلطات",
+      "price": 80,
+      "image": "/flavors/c_fresh_cocktail.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item96",
+      "name": "سيزر سالاد",
+      "category": "سلطات",
+      "price": 85,
+      "image": "/flavors/c_fresh_cocktail.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item97",
+      "name": "تشيكن سيزر سالاد",
+      "category": "سلطات",
+      "price": 125,
+      "image": "/flavors/c_fresh_cocktail.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item98",
+      "name": "تونة سالاد",
+      "category": "سلطات",
+      "price": 140,
+      "image": "/flavors/c_fresh_cocktail.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item99",
+      "name": "بلاك & وايت سالاد",
+      "category": "سلطات",
+      "price": 150,
+      "image": "/flavors/c_fresh_cocktail.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item100",
+      "name": "كساديا تشير أومليت",
+      "category": "سندوتشات",
+      "price": 90,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item101",
+      "name": "كساديا تشير بيبروني",
+      "category": "سندوتشات",
+      "price": 100,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item102",
+      "name": "كساديا ميكس تشير",
+      "category": "سندوتشات",
+      "price": 100,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item103",
+      "name": "كساديا تشيكن جريل",
+      "category": "سندوتشات",
+      "price": 120,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item104",
+      "name": "تويستر بطاطس",
+      "category": "سندوتشات",
+      "price": 60,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item105",
+      "name": "تويستر تشيكن",
+      "category": "سندوتشات",
+      "price": 95,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item106",
+      "name": "فاهيتا دجاج",
+      "category": "سندوتشات",
+      "price": 110,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item107",
+      "name": "كاتري تشيكن",
+      "category": "سندوتشات",
+      "price": 120,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item108",
+      "name": "كوردن بلو",
+      "category": "سندوتشات",
+      "price": 120,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item109",
+      "name": "بطاطس صغيرة",
+      "category": "بطاطس",
+      "price": 30,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item110",
+      "name": "بطاطس كبيرة",
+      "category": "بطاطس",
+      "price": 40,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item111",
+      "name": "بطاطس كاتشب مايونيز",
+      "category": "بطاطس",
+      "price": 45,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item112",
+      "name": "بطاطس تكساس",
+      "category": "بطاطس",
+      "price": 50,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item113",
+      "name": "بطاطس تشير",
+      "category": "بطاطس",
+      "price": 50,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item114",
+      "name": "هالفي ملي",
+      "category": "أطباق رئيسية",
+      "price": 150,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item115",
+      "name": "تشيكن بانيه",
+      "category": "أطباق رئيسية",
+      "price": 150,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item116",
+      "name": "وجبة شيش",
+      "category": "أطباق رئيسية",
+      "price": 180,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item117",
+      "name": "فاهيتا دجاج",
+      "category": "أطباق رئيسية",
+      "price": 250,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item118",
+      "name": "فاهيتا ميكس",
+      "category": "أطباق رئيسية",
+      "price": 330,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item119",
+      "name": "فاهيتا لحم",
+      "category": "أطباق رئيسية",
+      "price": 400,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item120",
+      "name": "تشيكن ليمون معصفر",
+      "category": "أطباق رئيسية",
+      "price": 240,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item121",
+      "name": "بيكاتا مشروم",
+      "category": "أطباق رئيسية",
+      "price": 240,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item122",
+      "name": "تشيكن إستراجانوف",
+      "category": "أطباق رئيسية",
+      "price": 250,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item123",
+      "name": "بيف إستراجانوف",
+      "category": "أطباق رئيسية",
+      "price": 400,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item124",
+      "name": "هيكوري تشيكن",
+      "category": "أطباق رئيسية",
+      "price": 260,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item125",
+      "name": "كاتري تشيكن",
+      "category": "أطباق رئيسية",
+      "price": 260,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item126",
+      "name": "كاسبر دجاج",
+      "category": "أطباق رئيسية",
+      "price": 270,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item127",
+      "name": "كوردن بلو",
+      "category": "أطباق رئيسية",
+      "price": 250,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item128",
+      "name": "تشيكن بلاك & وايت",
+      "category": "أطباق رئيسية",
+      "price": 260,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item129",
+      "name": "باستا أرابيتا",
+      "category": "باستا",
+      "price": 100,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item130",
+      "name": "أرابياتا باستا",
+      "category": "باستا",
+      "price": 100,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item131",
+      "name": "ماك & تشير",
+      "category": "باستا",
+      "price": 135,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item132",
+      "name": "جريد ماك & تشير",
+      "category": "باستا",
+      "price": 185,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item133",
+      "name": "تشاييز نودلز",
+      "category": "باستا",
+      "price": 160,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item134",
+      "name": "باستا الفريدو",
+      "category": "باستا",
+      "price": 165,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item135",
+      "name": "كاربونارا",
+      "category": "باستا",
+      "price": 180,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item136",
+      "name": "بيستو باستا",
+      "category": "باستا",
+      "price": 170,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item137",
+      "name": "سبايسي بولونيز",
+      "category": "باستا",
+      "price": 160,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item138",
+      "name": "باستا كوردن بلو",
+      "category": "باستا",
+      "price": 190,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item139",
+      "name": "رانش باستا",
+      "category": "باستا",
+      "price": 190,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item140",
+      "name": "باستا بيكاتا مشروم",
+      "category": "باستا",
+      "price": 180,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item141",
+      "name": "ميكس تشير باستا",
+      "category": "باستا",
+      "price": 210,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item142",
+      "name": "باستا جمبري",
+      "category": "باستا",
+      "price": 280,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item143",
+      "name": "سي فود باستا",
+      "category": "باستا",
+      "price": 300,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item144",
+      "name": "بيتزا مارجريتا M",
+      "category": "بيتزا",
+      "price": 100,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item145",
+      "name": "بيتزا مارجريتا L",
+      "category": "بيتزا",
+      "price": 140,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item146",
+      "name": "بيتزا ميكس تشير M",
+      "category": "بيتزا",
+      "price": 150,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item147",
+      "name": "بيتزا ميكس تشير L",
+      "category": "بيتزا",
+      "price": 185,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item148",
+      "name": "بيتزا خضروات M",
+      "category": "بيتزا",
+      "price": 130,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item149",
+      "name": "بيتزا خضروات L",
+      "category": "بيتزا",
+      "price": 165,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item150",
+      "name": "بيتزا تشيكن رانش M",
+      "category": "بيتزا",
+      "price": 165,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item151",
+      "name": "بيتزا تشيكن رانش L",
+      "category": "بيتزا",
+      "price": 195,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item152",
+      "name": "بيتزا تشيكن باربكيو M",
+      "category": "بيتزا",
+      "price": 165,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item153",
+      "name": "بيتزا تشيكن باربكيو L",
+      "category": "بيتزا",
+      "price": 195,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item154",
+      "name": "بيتزا تشيكن تكساس M",
+      "category": "بيتزا",
+      "price": 170,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item155",
+      "name": "بيتزا تشيكن تكساس L",
+      "category": "بيتزا",
+      "price": 200,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item156",
+      "name": "بيتزا بيبروني M",
+      "category": "بيتزا",
+      "price": 170,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item157",
+      "name": "بيتزا بيبروني L",
+      "category": "بيتزا",
+      "price": 190,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item158",
+      "name": "بيتزا هوت دوج M",
+      "category": "بيتزا",
+      "price": 145,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item159",
+      "name": "بيتزا هوت دوج L",
+      "category": "بيتزا",
+      "price": 170,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item160",
+      "name": "بيتزا سوبر سوبريم M",
+      "category": "بيتزا",
+      "price": 170,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item161",
+      "name": "بيتزا سوبر سوبريم L",
+      "category": "بيتزا",
+      "price": 190,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item162",
+      "name": "بيتزا تونة L",
+      "category": "بيتزا",
+      "price": 190,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item163",
+      "name": "بيتزا جمبري L",
+      "category": "بيتزا",
+      "price": 300,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item164",
+      "name": "بيتزا سي فود L",
+      "category": "بيتزا",
+      "price": 320,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item165",
+      "name": "كالزوني ميكس تشير",
+      "category": "كالزون",
+      "price": 160,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item166",
+      "name": "كالزوني جريل تشيكن",
+      "category": "كالزون",
+      "price": 185,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item167",
+      "name": "هالبينو",
+      "category": "إضافات",
+      "price": 10,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item168",
+      "name": "مشروم",
+      "category": "إضافات",
+      "price": 15,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item169",
+      "name": "بيبروني",
+      "category": "إضافات",
+      "price": 15,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item170",
+      "name": "صوص",
+      "category": "إضافات",
+      "price": 25,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item171",
+      "name": "طبق أرز بسمتي",
+      "category": "إضافات",
+      "price": 30,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item172",
+      "name": "دجاج جريل",
+      "category": "إضافات",
+      "price": 35,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item173",
+      "name": "صدر دجاج جريل",
+      "category": "إضافات",
+      "price": 50,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item174",
+      "name": "لبن",
+      "category": "إضافات مشروبات",
+      "price": 15,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item175",
+      "name": "إسبريسو",
+      "category": "إضافات مشروبات",
+      "price": 20,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item176",
+      "name": "آيس كريم",
+      "category": "إضافات مشروبات",
+      "price": 15,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item177",
+      "name": "صوص",
+      "category": "إضافات مشروبات",
+      "price": 10,
+      "image": "/flavors/americano.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item178",
+      "name": "كلاسيك فانيليا",
+      "category": "ميلك شيك",
+      "price": 60,
+      "image": "/flavors/ms-classic-vanilla.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item179",
+      "name": "كلاسيك شوكولاتة",
+      "category": "ميلك شيك",
+      "price": 60,
+      "image": "/flavors/ms-classic-chocolate.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item180",
+      "name": "كلاسيك فراولة",
+      "category": "ميلك شيك",
+      "price": 60,
+      "image": "/flavors/ms-classic-strawberry.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item181",
+      "name": "كلاسيك مانجو",
+      "category": "ميلك شيك",
+      "price": 60,
+      "image": "/flavors/ms-classic-mango.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item182",
+      "name": "ميلك شيك أوريو",
+      "category": "ميلك شيك",
+      "price": 70,
+      "image": "/flavors/ms-oreo.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item183",
+      "name": "ميلك شيك نوتيلا",
+      "category": "ميلك شيك",
+      "price": 70,
+      "image": "/flavors/ms-nutella.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item184",
+      "name": "ميلك شيك لوتس",
+      "category": "ميلك شيك",
+      "price": 70,
+      "image": "/flavors/ms-lotus.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item185",
+      "name": "ميلك شيك بلوبيري",
+      "category": "ميلك شيك",
+      "price": 70,
+      "image": "/flavors/ms-blueberry.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item186",
+      "name": "ميلك شيك ميكس بيري",
+      "category": "ميلك شيك",
+      "price": 70,
+      "image": "/flavors/ms-mixed-berry.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item187",
+      "name": "ميلك شيك باشون",
+      "category": "ميلك شيك",
+      "price": 70,
+      "image": "/flavors/ms-passion.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item188",
+      "name": "ميلك شيك بيستاشيو",
+      "category": "ميلك شيك",
+      "price": 85,
+      "image": "/flavors/ms-pistachio.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item189",
+      "name": "ميلك شيك نوتيلا أوريو",
+      "category": "ميلك شيك",
+      "price": 80,
+      "image": "/flavors/ms-nutella-oreo.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item190",
+      "name": "ميلك شيك لوتس بيري",
+      "category": "ميلك شيك",
+      "price": 80,
+      "image": "/flavors/ms-lotus-berry.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item191",
+      "name": "ميلك شيك كيت كات",
+      "category": "ميلك شيك",
+      "price": 100,
+      "image": "/flavors/ms-kitkat.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item192",
+      "name": "ميلك شيك سنكرز",
+      "category": "ميلك شيك",
+      "price": 100,
+      "image": "/flavors/ms-snickers.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item193",
+      "name": "سموزي مانجو",
+      "category": "سموزي",
+      "price": 60,
+      "image": "/flavors/sm-mango.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item194",
+      "name": "سموزي فراولة",
+      "category": "سموزي",
+      "price": 60,
+      "image": "/flavors/sm-strawberry.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item195",
+      "name": "سموزي بطيخ",
+      "category": "سموزي",
+      "price": 60,
+      "image": "/flavors/sm-watermelon.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item196",
+      "name": "سموزي تروبيكال أناناس",
+      "category": "سموزي",
+      "price": 55,
+      "image": "/flavors/sm-pineapple.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item197",
+      "name": "سموزي تروبيكال خوخ",
+      "category": "سموزي",
+      "price": 55,
+      "image": "/flavors/sm-peach.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item198",
+      "name": "سموزي تروبيكال كيوي",
+      "category": "سموزي",
+      "price": 55,
+      "image": "/flavors/sm-kiwi.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item199",
+      "name": "سموزي تروبيكال ليمون فروت",
+      "category": "سموزي",
+      "price": 55,
+      "image": "/flavors/sm-grapefruit.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item200",
+      "name": "سموزي بيري بلاك بيري",
+      "category": "سموزي",
+      "price": 60,
+      "image": "/flavors/sm-blackberry.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item201",
+      "name": "سموزي بيري باشون بيري",
+      "category": "سموزي",
+      "price": 60,
+      "image": "/flavors/sm-passion-berry.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item202",
+      "name": "سموزي ميكس موهيتو ليمون",
+      "category": "سموزي",
+      "price": 65,
+      "image": "/flavors/sm-mojito-lemon.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item203",
+      "name": "سموزي ميكس موهيتو نعناع",
+      "category": "سموزي",
+      "price": 65,
+      "image": "/flavors/sm-mojito-mint.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item204",
+      "name": "سموزي ميكس بلو ليمون",
+      "category": "سموزي",
+      "price": 65,
+      "image": "/flavors/sm-blue-lemon.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item205",
+      "name": "بوبا آيس لاتيه",
+      "category": "بوبا تي",
+      "price": 85,
+      "image": "/flavors/bb-latte.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item206",
+      "name": "بوبا آيس كوفي كابتشينو",
+      "category": "بوبا تي",
+      "price": 95,
+      "image": "/flavors/bb-cappuccino.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item207",
+      "name": "بوبا آيس كوفي موكا",
+      "category": "بوبا تي",
+      "price": 95,
+      "image": "/flavors/bb-mocha.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item208",
+      "name": "بوبا ميلك شيك فانيليا",
+      "category": "بوبا تي",
+      "price": 90,
+      "image": "/flavors/bb-ms-vanilla.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item209",
+      "name": "بوبا ميلك شيك شوكولاتة",
+      "category": "بوبا تي",
+      "price": 90,
+      "image": "/flavors/bb-ms-chocolate.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item210",
+      "name": "بوبا ميلك شيك مانجو",
+      "category": "بوبا تي",
+      "price": 90,
+      "image": "/flavors/bb-ms-mango.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item211",
+      "name": "بوبا ميلك شيك فراولة",
+      "category": "بوبا تي",
+      "price": 90,
+      "image": "/flavors/bb-ms-strawberry.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item212",
+      "name": "بوبا ميلك شيك بريميوم أوريو",
+      "category": "بوبا تي",
+      "price": 95,
+      "image": "/flavors/bb-ms-premium-oreo.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item213",
+      "name": "بوبا ميلك شيك بريميوم نوتيلا",
+      "category": "بوبا تي",
+      "price": 95,
+      "image": "/flavors/bb-ms-premium-nutella.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item214",
+      "name": "بوبا ميلك شيك بريميوم كراميل",
+      "category": "بوبا تي",
+      "price": 95,
+      "image": "/flavors/bb-ms-premium-caramel.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item215",
+      "name": "ميلك شيك بوبا بلوبيري",
+      "category": "بوبا تي",
+      "price": 95,
+      "image": "/flavors/bb-blueberry-shake.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item216",
+      "name": "موخيتو بوبا بلوبيري",
+      "category": "بوبا تي",
+      "price": 90,
+      "image": "/flavors/bb-blueberry-mojito.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item217",
+      "name": "وافل كلاسيك",
+      "category": "وافل",
+      "price": 70,
+      "image": "/flavors/wf-classic.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item218",
+      "name": "وافل أوريو",
+      "category": "وافل",
+      "price": 80,
+      "image": "/flavors/wf-classic.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item219",
+      "name": "وافل فور سيزون نوتيلا",
+      "category": "وافل",
+      "price": 85,
+      "image": "/flavors/waffle_4season.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item220",
+      "name": "وافل فور سيزون لوتس",
+      "category": "وافل",
+      "price": 85,
+      "image": "/flavors/wf-classic.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item221",
+      "name": "وافل فور سيزون أوريو",
+      "category": "وافل",
+      "price": 85,
+      "image": "/flavors/wf-classic.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item222",
+      "name": "وافل فواكه",
+      "category": "وافل",
+      "price": 95,
+      "image": "/flavors/waffle_fruits.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item223",
+      "name": "وافل آيس كريم",
+      "category": "وافل",
+      "price": 95,
+      "image": "/flavors/waffle_ice_cream.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item224",
+      "name": "وافل ميكس نوتيلا",
+      "category": "وافل",
+      "price": 100,
+      "image": "/flavors/waffle_nutella.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item225",
+      "name": "وافل ميكس لوتس",
+      "category": "وافل",
+      "price": 100,
+      "image": "/flavors/wf-classic.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item226",
+      "name": "وافل ميكس كراميل",
+      "category": "وافل",
+      "price": 100,
+      "image": "/flavors/wf-classic.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item227",
+      "name": "وافل ميكس كندر",
+      "category": "وافل",
+      "price": 100,
+      "image": "/flavors/wf-classic.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item228",
+      "name": "وافل ميكس بيستاشيو",
+      "category": "وافل",
+      "price": 100,
+      "image": "/flavors/wf-classic.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item233",
+      "name": "تشيز كيك",
+      "category": "حلويات",
+      "price": 90,
+      "image": "/flavors/cheese_cake.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item234",
+      "name": "هوت شوكليت",
+      "category": "مشروبات ساخنة",
+      "price": 55,
+      "image": "/flavors/hc-plain.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item235",
+      "name": "هوت شوكليت أوريو",
+      "category": "مشروبات ساخنة",
+      "price": 55,
+      "image": "/flavors/hc-oreo.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item236",
+      "name": "هوت شوكليت نوتيلا",
+      "category": "مشروبات ساخنة",
+      "price": 60,
+      "image": "/flavors/hc-nutella.png",
+      "imageFit": "cover"
+    },
+    {
+      "id": "item237",
+      "name": "هوت شوكليت مارشميلو",
+      "category": "مشروبات ساخنة",
+      "price": 65,
+      "image": "/flavors/hc-marshmallow.png",
+      "imageFit": "cover"
+    }
+  ]
+}

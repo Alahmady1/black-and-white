@@ -1,0 +1,28 @@
+{% extends 'admin/base.html' %}
+{% block content %}
+<div style="background:#fff; padding:20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <div style="display:flex; justify-content:space-between; margin-bottom:15px;">
+        <h3>Customers</h3>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Registered At</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for c in customers %}
+            <tr>
+                <td>{{ c.id }}</td>
+                <td>{{ c.name }}</td>
+                <td>{{ c.phone }}</td>
+                <td>{{ c.created_at.strftime('%Y-%m-%d %H:%M') }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Login - B&W</title>
+    <style>
+        body { background: #0a0a0a; color: #fff; font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .login-box { background: #1a1a1a; padding: 40px; border-radius: 8px; box-shadow: 0 0 20px rgba(0,0,0,0.5); border-top: 5px solid #c9a962; width:300px; text-align:center;}
+        input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #333; background: #222; color:#fff; border-radius:4px; box-sizing:border-box;}
+        button { width: 100%; padding: 10px; background: #c9a962; border: none; color: #000; font-weight: bold; cursor: pointer; border-radius:4px; margin-top:10px;}
+        button:hover { background: #b89851; }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h2>B&W Admin</h2>
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <ul style="color:red; list-style:none; padding:0;">
+            {% for message in messages %}
+              <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+        {% endwith %}
+        <form method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>

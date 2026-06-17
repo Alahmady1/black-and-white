@@ -1,0 +1,32 @@
+{% extends 'admin/base.html' %} {% block content %}
+<h2>Order Details</h2>
+
+<p><strong>Order #:</strong> {{ order.order_number }}</p>
+<p><strong>Total:</strong> {{ order.total_price }} EGP</p>
+<p><strong>Status:</strong> {{ order.status }}</p>
+<p><strong>Source:</strong> {{ order.source }}</p>
+
+<hr />
+
+<h3>Items</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Qty</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in order.items %}
+    <tr>
+      <td>{{ item.item_name }}</td>
+      <td>{{ item.item_price }}</td>
+      <td>{{ item.quantity }}</td>
+      <td>{{ item.item_price * item.quantity }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

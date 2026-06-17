@@ -1,0 +1,66 @@
+{% extends 'admin/base.html' %} {% block content %}
+<div
+  style="
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  "
+>
+  <div
+    style="display: flex; justify-content: space-between; margin-bottom: 15px"
+  >
+    <h3>Products & Inventory</h3>
+    <a href="/admin/products/add" class="btn">+ Add Product</a>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Price</th>
+        <th>Stock</th>
+        <th>Available</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for p in products %}
+      <tr>
+        <td>{{ p.id }}</td>
+        <td>
+          <img
+            src="{{ p.image }}"
+            alt="{{ p.name }}"
+            style="
+              width: 40px;
+              height: 40px;
+              object-fit: cover;
+              border-radius: 4px;
+            "
+          />
+        </td>
+        <td>{{ p.name }}</td>
+        <td>{{ p.category.name if p.category else 'None' }}</td>
+        <td>{{ p.price }} EGP</td>
+        <td>{{ p.stock_quantity }}</td>
+        <td>{{ 'Yes' if p.is_available else 'No' }}</td>
+        <td>
+          <a href="/admin/products/{{ p.id }}/edit">Edit</a>
+          <form
+            method="POST"
+            action="/admin/products/{{ p.id }}/delete"
+            style="display: inline"
+          >
+            <button type="submit" onclick="return confirm('Delete product?');">
+              Delete
+            </button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

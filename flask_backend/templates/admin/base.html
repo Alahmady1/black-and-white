@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>B&W Admin</title>
+    <style>
+      body {
+        margin: 0;
+        background: #0a0a0a;
+        color: #fff;
+        font-family: Arial, sans-serif;
+      }
+
+      .sidebar {
+        width: 240px;
+        height: 100vh;
+        background: #111;
+        position: fixed;
+        left: 0;
+        top: 0;
+        padding: 25px 18px;
+        box-sizing: border-box;
+        border-right: 1px solid #333;
+      }
+
+      .sidebar h2 {
+        color: #c9a962;
+        margin-bottom: 30px;
+      }
+
+      .sidebar a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        padding: 12px 14px;
+        margin-bottom: 8px;
+        border-radius: 6px;
+      }
+
+      .sidebar a:hover {
+        background: #c9a962;
+        color: #000;
+      }
+
+      .content {
+        margin-left: 260px;
+        padding: 30px;
+      }
+
+      .header {
+        background: #1a1a1a;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        border: 1px solid #333;
+      }
+
+      table {
+        width: 100%;
+        background: #fff;
+        color: #111;
+        border-collapse: collapse;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      th,
+      td {
+        padding: 12px;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+      }
+
+      th {
+        background: #c9a962;
+        color: #000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="sidebar">
+      <h2>B&W Admin</h2>
+      <a href="/admin/dashboard">Dashboard</a>
+      <a href="/admin/orders">Orders</a>
+      <a href="/admin/products">Products & Inventory</a>
+      <a href="/admin/categories">Categories</a>
+      <a href="/admin/customers">Customers</a>
+      <a href="/admin/gifts">Gifts</a>
+      <a href="/admin/logout">Logout</a>
+    </div>
+
+    <div class="content">
+      <div class="header">
+        <h1>Admin Panel</h1>
+      </div>
+
+      {% block content %}{% endblock %}
+    </div>
+    <footer
+      style="
+        margin-top: 50px;
+        background: linear-gradient(135deg, #111, #1c1c1c);
+        color: white;
+        text-align: center;
+        padding: 30px 20px;
+        border-top: 3px solid #d4af37;
+        box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.25);
+      "
+    >
+      <div
+        style="
+          font-size: 12px;
+          letter-spacing: 3px;
+          color: #bdbdbd;
+          text-transform: uppercase;
+        "
+      >
+        Developed & Maintained By
+      </div>
+
+      <div
+        style="
+          font-size: 28px;
+          font-weight: 700;
+          margin-top: 10px;
+          color: #ffffff;
+        "
+      >
+        Eng. Mohamed Alahmady
+      </div>
+
+      <div
+        style="
+          width: 80px;
+          height: 3px;
+          background: #d4af37;
+          margin: 12px auto;
+          border-radius: 999px;
+        "
+      ></div>
+
+      <div style="font-size: 18px; color: #e5e5e5">📞 01094652499</div>
+
+      <div style="margin-top: 15px; font-size: 13px; color: #999">
+        BLACK & WHITE Restaurant & Cafe Management System
+      </div>
+
+      <div style="margin-top: 8px; font-size: 12px; color: #777">
+        © 2026 All Rights Reserved
+      </div>
+    </footer>
+  </body>
+</html>

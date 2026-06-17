@@ -1,0 +1,59 @@
+{% extends 'admin/base.html' %} {% block content %}
+<div
+  style="
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  "
+>
+  <div
+    style="display: flex; justify-content: space-between; margin-bottom: 15px"
+  >
+    <h3>Gifts / Rewards</h3>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Customer</th>
+        <th>Gift Name</th>
+        <th>Redeemed?</th>
+        <th>Granted Date</th>
+        <th>Redeemed Date</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for g in gifts %}
+
+      <tr>
+        <td></td>
+        <td>{{ g.id }}</td>
+        <td>{{ g.customer.name }} ({{ g.customer.phone }})</td>
+        <td>{{ g.gift_name }}</td>
+
+        <td>{{ 'Yes' if g.is_redeemed else 'No' }}</td>
+        <td>{{ g.created_at.strftime('%Y-%m-%d %H:%M') }}</td>
+        <td>
+          {{ g.redeemed_at.strftime('%Y-%m-%d %H:%M') if g.redeemed_at else '-'
+          }}
+        </td>
+        <td>
+          {% if not g.redeemed_at %}
+          <form
+            method="POST"
+            action="/admin/gifts/{{ g.id }}/redeem"
+            style="display: inline"
+          >
+            <button type="submit">Mark Redeemed</button>
+          </form>
+          {% else %}
+          <span>Redeemed</span>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}
