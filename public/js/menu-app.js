@@ -124,7 +124,7 @@
       lines.join("\n") +
       `\n\nالإجمالي: ${total} ج.م` +
       `\nالدفع: كاش` +
-      notes;
+      `\nالملاحظات: ${notes || "لا يوجد"}`;
 
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       messageText,
@@ -138,12 +138,14 @@
         customer_id: localStorage.getItem("bw_customer_id") || null,
         customer_name: localStorage.getItem("bw_customer_name") || "Guest",
         phone: localStorage.getItem("bw_customer_phone") || "",
-        items: cart.map((item) => ({
-          id: item.id,
-          name: item.name,
-          price: item.price,
-          quantity: item.quantity,
-        })),
+        items: cart
+          .filter((item) => item.id !== "gift-lemon-mint")
+          .map((item) => ({
+            id: item.id,
+            name: item.name,
+            price: item.price,
+            quantity: item.quantity,
+          })),
         total_price: total,
         source: "whatsapp",
         notes: notes,
