@@ -129,6 +129,7 @@
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       messageText,
     )}`;
+    console.log("ORDER ITEMS:", cart.filter((item) => item.id !== "gift-lemon-mint"));
     fetch("https://web-production-c87a6.up.railway.app/api/orders", {
       method: "POST",
       headers: {
