@@ -75,7 +75,7 @@ class Gift(db.Model):
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
     redeemed_at = db.Column(db.DateTime, nullable=True)
 
-from extensions import login_manager
+from flask_backend.extensions import login_manager
 
 @login_manager.user_loader
 def load_user(user_id):
