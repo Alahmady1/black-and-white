@@ -27,8 +27,17 @@ def create_app():
         # Seed if empty
      #   from flask_backend.seed import seed_database
        # seed_database()
-        
-    return app
+        from flask_backend.models import Admin
+
+    admin = Admin.query.filter_by(username="Ak47").first()
+    if not admin:
+        admin = Admin(
+            username="Ak47",
+            password_hash=bcrypt.generate_password_hash("black&white2027").decode("utf-8")
+        )
+        db.session.add(admin)
+        db.session.commit()
+        return app
 app = create_app()
 
 if __name__ == '__main__':
