@@ -25,10 +25,11 @@ def create_app():
     with app.app_context():
         db.create_all()
         # Seed if empty
-        from seed import seed_database
+        from flask_backend.seed import seed_database
         seed_database()
         
     return app
+app = create_app()
 
 if __name__ == '__main__':
     app = create_app()
