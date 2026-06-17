@@ -1,8 +1,7 @@
 from flask import Flask
 from flask_cors import CORS
-from config import Config
-from extensions import db, bcrypt, login_manager
-
+from flask_backend.config import Config
+from flask_backend.extensions import db, bcrypt, login_manager
 def create_app():
     app = Flask(__name__)
     app.config.from_object(Config)
@@ -14,9 +13,9 @@ def create_app():
     login_manager.init_app(app)
     
     # Register blueprints
-    from routes.api import api_bp
-    from routes.admin import admin_bp
-    from routes.auth import auth_bp
+    from flask_backend.routes.api import api_bp
+    from flask_backend.routes.admin import admin_bp
+    from flask_backend.routes.auth import auth_bp
     
     app.register_blueprint(api_bp, url_prefix='/api')
     app.register_blueprint(admin_bp, url_prefix='/admin')
