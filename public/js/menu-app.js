@@ -123,12 +123,12 @@
       `طلب جديد من Black & White\n\n` +
       lines.join("\n") +
       `\n\nالإجمالي: ${total} ج.م` +
-      `\nالدفع: كاش` +notes;
+      `\nالدفع: كاش` +
+      notes;
 
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       messageText,
     )}`;
- 
     fetch("https://web-production-c87a6.up.railway.app/api/orders", {
       method: "POST",
       headers: {
@@ -149,13 +149,14 @@
         notes: notes,
       }),
     })
-.then(() => {
-  window.open(url, "_blank");
-})
-.catch((err) => {
-  console.error("Order save failed:", err);
-  window.open(url, "_blank");
-});
+      .then(() => {
+        window.open(url, "_blank");
+      })
+      .catch((err) => {
+        console.error("Order save failed:", err);
+        window.open(url, "_blank");
+      });
+  }
 
   function createCartUI() {
     const oldButton = document.getElementById("cartButton");
@@ -300,7 +301,7 @@
     emptyState.classList.add("d-none");
 
     grid.innerHTML = visibleItems
-    
+
       .map(
         (item) => `
         <div class="col-sm-6 col-lg-4 col-xl-3">
@@ -332,8 +333,8 @@
         </div>`,
       )
       .join("");
-      if (filtered.length > visibleCount) {
-  grid.innerHTML += `
+    if (filtered.length > visibleCount) {
+      grid.innerHTML += `
     <div class="col-12 text-center mt-4">
       <button id="loadMoreBtn" class="btn btn-dark px-5 py-3">
         عرض المزيد
@@ -341,11 +342,11 @@
     </div>
   `;
 
-  document.getElementById("loadMoreBtn").addEventListener("click", () => {
-    visibleCount += 20;
-    renderItems();
-  });
-}
+      document.getElementById("loadMoreBtn").addEventListener("click", () => {
+        visibleCount += 20;
+        renderItems();
+      });
+    }
   }
 
   grid.addEventListener("click", (e) => {
@@ -395,6 +396,6 @@
     .catch((err) => {
       console.error("MENU ERROR:", err);
       grid.innerHTML =
-        '<div class="col-12"><p class="text-danger text-center">تعذر تحميل القائمة. حدّث الصفحة.</p></div>';
+        '<div class="col-12"><p class="text-danger text-center">تعذر تحميل القائمة. حدث الصفحة.</p></div>';
     });
 })();
