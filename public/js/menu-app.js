@@ -360,7 +360,7 @@
 
   createCartUI();
 
-  fetch("http://127.0.0.1:5000/api/products")
+  fetch("https://web-production-c87a6.up.railway.app/api/products")
     .then((res) => res.json())
     .then((items) => {
       allItems = items || [];
