@@ -1,8 +1,7 @@
 import json
 import os
-from extensions import db, bcrypt
-from models import Admin, Category, Product
-
+from flask_backend.extensions import db, bcrypt
+from flask_backend.models import Admin, Category, Product
 def seed_database():
     admin = Admin.query.first()
     if admin:

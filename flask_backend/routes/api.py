@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify, request
-from extensions import db
-from models import Product, Category, Order, OrderItem
+from flask_backend.extensions import db
+from flask_backend.models import Product, Category, Order, OrderItem
 import uuid
 
 api_bp = Blueprint('api', __name__)

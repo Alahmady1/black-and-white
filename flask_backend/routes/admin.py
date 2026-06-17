@@ -1,7 +1,7 @@
-from flask import Blueprint, render_template, request, redirect, url_for, flash
-from flask_login import login_user, logout_user, login_required, current_user
-from extensions import db, bcrypt
-from models import Admin, Product, Category, Customer, Order, Gift
+from flask import Blueprint, render_template, request, redirect
+from flask_login import login_required, login_user, logout_user
+from flask_backend.extensions import db, bcrypt
+from flask_backend.models import Admin, Product, Category, Customer, Gift
 import uuid
 import os
 from werkzeug.utils import secure_filename

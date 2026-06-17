@@ -1,6 +1,6 @@
-from app import create_app
-from extensions import db, bcrypt
-from models import Admin
+from flask_backend.app import create_app
+from flask_backend.extensions import db, bcrypt
+from flask_backend.models import Admin
 
 app = create_app()
 

@@ -1,7 +1,7 @@
 import re
 from flask import Blueprint, request, jsonify
-from extensions import db, bcrypt
-from models import Customer, Gift
+from flask_backend.extensions import db, bcrypt
+from flask_backend.models import Customer, Gift
 
 auth_bp = Blueprint('auth', __name__)
 
