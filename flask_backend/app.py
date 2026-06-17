@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, app
 from flask_cors import CORS
 from flask_backend.config import Config
 from flask_backend.extensions import db, bcrypt, login_manager
@@ -23,23 +23,26 @@ def create_app():
     
     # Create tables
     with app.app_context():
-        db.create_all()
-        # Seed if empty
-     #   from flask_backend.seed import seed_database
-       # seed_database()
-        from flask_backend.models import Admin
+     db.create_all()
 
-        admin = Admin.query.filter_by(username="Ak47").first()
-        if not admin:
-            admin = Admin(
-                username="Ak47",
-                password_hash=bcrypt.generate_password_hash("black&white2027").decode("utf-8")
-            )
-            db.session.add(admin)
-            db.session.commit()
-        return app
+    from flask_backend.models import Admin, Product
+    from flask_backend.seed import seed_database
+
+    if Product.query.count() == 0:
+        seed_database()
+
+    admin = Admin.query.filter_by(username="Ak47").first()
+    if not admin:
+        admin = Admin(
+            username="Ak47",
+            password_hash=bcrypt.generate_password_hash("black&white2027").decode("utf-8")
+        )
+        db.session.add(admin)
+        db.session.commit()
+
+    return app
 app = create_app()
 
 if __name__ == '__main__':
-    app = create_app()
+   
     app.run(host='0.0.0.0', port=5000, debug=True)
