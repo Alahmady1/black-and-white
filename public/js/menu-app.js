@@ -279,8 +279,10 @@
     }
     return "";
   }
+  let visibleCount = 20;
   function renderItems() {
     const filtered = getFilteredItems();
+    const visibleItems = filtered.slice(0, visibleCount);
     resultCount.textContent = `${filtered.length} صنف`;
 
     if (filtered.length === 0) {
@@ -291,7 +293,8 @@
 
     emptyState.classList.add("d-none");
 
-    grid.innerHTML = filtered
+    grid.innerHTML = visibleItems
+    
       .map(
         (item) => `
         <div class="col-sm-6 col-lg-4 col-xl-3">
@@ -303,6 +306,7 @@
                 class="${getImageClass(item)}"
                 style="${getImageStyle(item)}"
                 loading="lazy"
+                decoding="async"
                 onerror="this.onerror=null;this.src='/flavors/no-image.png';"
               />
             </div>
@@ -322,6 +326,20 @@
         </div>`,
       )
       .join("");
+      if (filtered.length > visibleCount) {
+  grid.innerHTML += `
+    <div class="col-12 text-center mt-4">
+      <button id="loadMoreBtn" class="btn btn-dark px-5 py-3">
+        عرض المزيد
+      </button>
+    </div>
+  `;
+
+  document.getElementById("loadMoreBtn").addEventListener("click", () => {
+    visibleCount += 20;
+    renderItems();
+  });
+}
   }
 
   grid.addEventListener("click", (e) => {
