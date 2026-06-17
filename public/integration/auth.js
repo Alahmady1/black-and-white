@@ -1,5 +1,4 @@
-const API_BASE = "http://localhost:5000/auth";
-
+const API_BASE = "https://web-production-c87a6.up.railway.app/auth";
 function switchTab(tab) {
   document
     .querySelectorAll(".tab")
