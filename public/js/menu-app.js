@@ -153,8 +153,14 @@
       }),
     })
       .then(() => {
-        window.open(url, "_blank");
-      })
+  cart.length = 0;
+  localStorage.removeItem("bw_cart");
+
+  updateCartButton();
+  closeCart();
+
+  window.open(url, "_blank");
+    })
       .catch((err) => {
         console.error("Order save failed:", err);
         window.open(url, "_blank");
