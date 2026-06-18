@@ -1,58 +1,42 @@
-{% extends 'admin/base.html' %} {% block content %}
-<div
-  style="
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  "
->
-  <div
-    style="display: flex; justify-content: space-between; margin-bottom: 15px"
-  >
-    <h3>Categories</h3>
-    <a href="{{ url_for('admin.categories') }}" class="btn">+ Add Category</a>
-  </div>
-  <table>
-    <thead>
-      <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Active</th>
-        <th>Actions</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for c in categories %}
-      <tr>
-        <td>{{ c.id }}</td>
-        <td>{{ c.name }}</td>
-        <td>{{ 'Yes' if c.is_active else 'No' }}</td>
-        <td>
-          <a
-            href="{{ url_for('admin.edit_category', category_id=c.id) }}"
-            class="btn"
-            style="padding: 4px 8px; font-size: 12px"
-            >Edit</a
-          >
+{% extends "admin/base.html" %}
 
-          <form
-            method="POST"
-            action="{{ url_for('admin.delete_category', category_id=c.id) }}"
-            style="display: inline"
-          >
-            <button
-              type="submit"
-              class="btn btn-danger"
-              style="padding: 4px 8px; font-size: 12px"
-              onclick="return confirm('Delete this category?');"
-            >
-              Delete
-            </button>
-          </form>
-        </td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+{% block content %}
+<div
+    style="
+    background:#fff;
+    padding:20px;
+    box-shadow:0 2px 5px rgba(0,0,0,.1);
+">
+
+    <div
+        style="display:flex;justify-content:space-between;margin-bottom:15px">
+        <h3>Categories</h3>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Active</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        {% for c in categories %}
+            <tr>
+                <td>{{ c.id }}</td>
+                <td>{{ c.name }}</td>
+                <td>{{ 'Yes' if c.is_active else 'No' }}</td>
+                <td>
+                    <span style="color:#777;">No actions</span>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+
+    </table>
+
 </div>
-{% endblock %}
+ {% endblock %}
