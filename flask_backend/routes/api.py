@@ -12,7 +12,7 @@ def get_categories():
 
 @api_bp.route('/products', methods=['GET'])
 def get_products():
-    products = Product.query.filter_by(is_available=True).all()
+    products = Product.query.all()
     return jsonify([{
         "id": p.id,
         "name": p.name,

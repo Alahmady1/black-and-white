@@ -31,9 +31,9 @@
   };
 
   function getImage(item) {
-    const img = imageMap[item.name] || item.image || "";
+    const img = item.image || imageMap[item.name] || "";
 
-    if (img.startsWith("/")) {
+    if (img && img.startsWith("/")) {
       return img;
     }
 
@@ -129,7 +129,10 @@
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       messageText,
     )}`;
-    console.log("ORDER ITEMS:", cart.filter((item) => item.id !== "gift-lemon-mint"));
+    console.log(
+      "ORDER ITEMS:",
+      cart.filter((item) => item.id !== "gift-lemon-mint"),
+    );
     fetch("https://web-production-c87a6.up.railway.app/api/orders", {
       method: "POST",
       headers: {
@@ -153,14 +156,14 @@
       }),
     })
       .then(() => {
-  cart.length = 0;
-  localStorage.removeItem("bw_cart");
+        cart.length = 0;
+        localStorage.removeItem("bw_cart");
 
-  updateCartButton();
-  closeCart();
+        updateCartButton();
+        closeCart();
 
-  window.open(url, "_blank");
-    })
+        window.open(url, "_blank");
+      })
       .catch((err) => {
         console.error("Order save failed:", err);
         window.open(url, "_blank");

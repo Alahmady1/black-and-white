@@ -57,6 +57,7 @@ def add_product():
 @admin_bp.route('/products/<product_id>/edit', methods=['GET', 'POST'])
 def edit_product(product_id):
     product = Product.query.get_or_404(product_id)
+    print("EDIT PRODUCT:", product.id, product.name, product.image)
 
     if request.method == 'POST':
         product.name = request.form.get('name')
@@ -65,6 +66,7 @@ def edit_product(product_id):
         product.description = request.form.get("description") or ""
         product.stock_quantity = int(request.form.get('stock_quantity') or 100)
         db.session.commit()
+        print("AFTER SAVE:", product.id, product.name, product.image)
         return redirect('/admin/products')
 
     return render_template('admin/product_form.html', product=product)

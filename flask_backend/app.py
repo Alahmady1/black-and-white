@@ -1,4 +1,4 @@
-from flask import Flask, app
+from flask import Flask, send_from_directory
 from flask_cors import CORS
 from flask_backend.config import Config
 from flask_backend.extensions import db, bcrypt, login_manager
@@ -21,6 +21,9 @@ def create_app():
     app.register_blueprint(admin_bp, url_prefix='/admin')
     app.register_blueprint(auth_bp, url_prefix='/auth')
     
+    @app.route("/flavors/<path:filename>")
+    def uploaded_flavors(filename):
+        return send_from_directory("public/flavors", filename)
    # Create tables
     with app.app_context():
         db.create_all()
