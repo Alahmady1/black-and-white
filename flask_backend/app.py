@@ -24,6 +24,9 @@ def create_app():
     @app.route("/flavors/<path:filename>")
     def uploaded_flavors(filename):
         return send_from_directory("public/flavors", filename)
+    @app.route("/test-route")
+    def test_route():
+     return "ROUTE OK"
    # Create tables
     with app.app_context():
         db.create_all()
